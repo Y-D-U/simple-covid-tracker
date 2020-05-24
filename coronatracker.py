@@ -28,7 +28,6 @@ while run:
                 print("listening")
                 audio=speech.listen(source)
                 text=speech.recognize_google(audio)
-                print(text)
                 break
             except:
                 print("Sorry speak again")
